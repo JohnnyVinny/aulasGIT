@@ -1,0 +1,25 @@
+-- inicializar repositório do Git
+git init
+
+-- como para atualizar nome de usuario (isso nao é o usuario do GITHUB)
+git config --global user.nome "Johnny vinicius"
+
+-- como para atualizar email de usuario (isso nao é o email do GITHUB)
+git config --global user.email "Johnny.vini"
+
+-- alterar branch master para main
+git branch -m master main
+
+-- verificar status do repositório
+git status
+
+-- comando para inserir um arquivo na próxima versão
+git add nomedoarquivo.extensaodoarquivo
+
+-- comando para inserir todas as modificações na próxima versão
+git add .
+
+-- comando para gerar uma nova versão
+git commit -m "breve descrição da versão"
+
+-- retornar .
